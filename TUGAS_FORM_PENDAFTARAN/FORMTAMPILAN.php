@@ -31,7 +31,10 @@ body {
       font-family: poppins;
       word-spacing: 2px;
       letter-spacing: 2px;
-     }    
+      font-family: poppins;
+      background: url('https://i.pinimg.com/originals/a0/95/79/a095793d809f2e134db9f8b3fb55ba95.gif') no-repeat;
+      background-size: cover;
+     }         
 p
  {
  color:#000000;

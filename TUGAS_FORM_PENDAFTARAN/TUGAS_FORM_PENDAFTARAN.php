@@ -40,11 +40,23 @@
 <style>
   body {
         font-family: poppins;
-        background: url('https://i.pinimg.com/originals/65/3a/c7/653ac7f4ecfe013c6efb2017a5807724.gif') no-repeat;
+        background: url('https://i.pinimg.com/originals/a0/95/79/a095793d809f2e134db9f8b3fb55ba95.gif') no-repeat;
         background-size: cover;
         } 
-  h1{color:#DC143C}
-  p{color:#000000}
+  h1{ 
+    color:#FF0000 ;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white ;
+    }
+  p{
+    color:white;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black ;
+   }
   .barcontainer
                 {
                  width: 100%;
@@ -59,8 +71,8 @@
                  width: 500px;
                  margin: 0 auto;
                  padding: 20px;
-                 border: 2px solid #ccc;
-                 border-radius: 5px;
+                 border: 0px solid #ccc;
+                 border-radius: 100px;
                  background: transparant;
                  backdrop-nofilter: blur(20px) ;
                 }
@@ -74,16 +86,18 @@
                  width: 92%;
                  padding: 8px;
                  border: 1px solid #ccc;
-                 border-radius: 3px;
+                 border-radius: 100px;
                  padding-right: 30px;
+                 appearance: none;
                 }
       .form-select 
                 {
                  width: 100%;
                  padding: 8px;
                  border: 1px solid #ccc;
-                 border-radius: 3px;
+                 border-radius: 100px;
                  padding-right: 30px;
+                 appearance: none;
                 }
               
        input[type=text]:focus, input[type=date]:focus
@@ -98,19 +112,19 @@
                 }
       .Confirmbutton 
                 {
-                 background-color: #DC143C;
+                 background-color: #FF0000;
                  padding: 10px 20px;
                  border: none;
-                 border-radius: 3px;
+                 border-radius: 100px;
                  cursor: pointer;
 
                 }
       .Clearbutton
                 {
-                 background-color: #DC143C;
+                 background-color: #FF0000;
                  padding: 10px 20px;
                  border: none;
-                 border-radius: 3px;
+                 border-radius: 100px;
                  cursor: pointer;
                 }
       .Confirmbutton, .Clearbutton {
